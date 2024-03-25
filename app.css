@@ -13,7 +13,6 @@
     width: 400px;
  }
 
-
  form label {
     display: block;
     font-weight: bold;
@@ -34,6 +33,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 
@@ -43,7 +43,7 @@
 }
 .topDiv {
     position: absolute;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
     font-weight: 900;
     text-shadow: 3px;
     -webkit-text-stroke-color: black;
@@ -55,7 +55,7 @@
 }
 .bottomDiv{
     position: absolute;
-    padding-top: 25%;
+    padding-top: 20%;
     font-weight: 900;
     text-shadow: 3px;
     -webkit-text-stroke-color: black;
@@ -74,7 +74,7 @@
     border: solid black 1px;
 }
 
-h2 + div{
+div > h2{
     display: flex;
     justify-content: center;
 }
