@@ -43,7 +43,7 @@
 }
 .topDiv {
     position: absolute;
-    padding-bottom: 20%;
+    padding-bottom: 18%;
     font-weight: 900;
     text-shadow: 3px;
     -webkit-text-stroke-color: black;
@@ -55,7 +55,7 @@
 }
 .bottomDiv{
     position: absolute;
-    padding-top: 20%;
+    padding-top: 18%;
     font-weight: 900;
     text-shadow: 3px;
     -webkit-text-stroke-color: black;
