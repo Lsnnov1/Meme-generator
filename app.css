@@ -1,0 +1,80 @@
+ body {
+    background-color: gray;
+    border: solid black 2px;
+ }
+ 
+ h1 {
+    display: flex;
+    justify-content: center;
+ }
+
+ form {
+    margin: 20px auto;
+    width: 400px;
+ }
+
+
+ form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+
+ form input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+ }
+
+
+.createdMeme  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.createdMeme:hover{
+    -webkit-text-stroke-width: 3px;
+
+}
+.topDiv {
+    position: absolute;
+    padding-bottom: 25%;
+    font-weight: 900;
+    text-shadow: 3px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+        
+}
+.bottomDiv{
+    position: absolute;
+    padding-top: 25%;
+    font-weight: 900;
+    text-shadow: 3px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+#memeDiv {
+
+    width: 50%;
+    margin-top: 30px;
+}
+
+#memeDiv img {
+    border: solid black 1px;
+}
+
+h2 + div{
+    display: flex;
+    justify-content: center;
+}
